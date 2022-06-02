@@ -4,6 +4,9 @@
  * main - Entry point
  *
  * Return : Always 1 (Error)
+ *
+ * Description: The function returns an error
+ * Return: 1 which is an error
  */
 int main(void)
 {
