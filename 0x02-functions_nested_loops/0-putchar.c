@@ -8,11 +8,14 @@
  */
 int main (void)
 {
-	int i = 95;
-	while (i == 95 || i == 112 || i ==  117 || i == 116 || i == 99 || i == 104 || i == 97 || i == 114)
+	char str[] = "_putchar";
+	int i = 0;
+
+	while (str[i] != '\0')
 	{
-		_putchar(i);
+		_putchar(str[i]);
 		i++;
 	}
+	_putchar('\n');
 	return (0);
 }
