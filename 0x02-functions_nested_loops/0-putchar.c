@@ -8,8 +8,6 @@
  */
 int main (void)
 {
-	int a = 951121171169910497114
-
-	_putchar(a);
+	_putchar(951121171169910497114);
 	return (0);
 }
