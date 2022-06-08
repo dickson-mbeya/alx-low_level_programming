@@ -8,7 +8,7 @@
  */
 int main (void)
 {
-	char a = '_putchar'
+	int a = 951121171169910497114
 
 	_putchar(a);
 	return (0);
