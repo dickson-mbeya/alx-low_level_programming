@@ -3,16 +3,17 @@
 /**
  * _abs - computes absolute value
  *
- * @n - the integer to compute 
+ * @n: the integer to compute 
  *
  * Return: On success 1.
  */
 int _abs(int n)
-{	if (n >= 0)
+{
+	if (n >= 0)
 	{
 		return (n);
 	}
-	else 
+	else
 	{
 		return (n * -1);
 	}
