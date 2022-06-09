@@ -8,8 +8,8 @@
  * Return: On success 1.
  */
 int print_last_digit(int n)
-{
-        int a = n % 10;
+{        int a = n % 10;
+
 	_putchar(a +'0');
 	return (a);
 }
