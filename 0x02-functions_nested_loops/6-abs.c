@@ -3,9 +3,11 @@
 /**
  * _abs - computes absolute value
  *
+ * @n - the integer to compute 
+ *
  * Return: On success 1.
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n;
 
