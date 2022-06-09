@@ -15,7 +15,7 @@ int print_sign(int n)
 	int zro = 0;
 	int ngtv = -1;
 
-	if ( n > 0)
+	if (n > 0)
 	{
 		_putchar(43);
 		return (pstv);
