@@ -8,10 +8,7 @@
  * Return: On success 1.
  */
 int _abs(int n)
-{
-	int n;
-
-	if (n >= 0)
+{	if (n >= 0)
 	{
 		return (n);
 	}
