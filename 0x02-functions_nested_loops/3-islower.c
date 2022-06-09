@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- *  _islower- check for lowercase
+ * _islower - check for lowercase
  *
  * @c: The character to print
  *
@@ -16,10 +15,10 @@ int _islower(int c)
 
 	if (c >= 97 && c <= 122)
 	{
-		return success;
+		return (success);
 	}
 	else
 	{
-		return notlower;
+		return (notlower);
 	}
 }
