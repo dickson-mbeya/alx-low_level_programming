@@ -17,17 +17,20 @@ int print_sign(int n)
 
 	if ( n > 0)
 	{
-		_putchar("+, ");
+		_putchar("+");
+		_putchar(", ");
 		return (pstv);
 	}
 	else if (n == 0)
 	{
-		_putchar("0, ");
-		return (ngtv);
+		_putchar("0");
+		_putchar(", ");
+		return (zro);
 	}
 	else
 	{
-		_putchar("-, ");
-		return (notlower);
+		_putchar("-");
+		_putchar(", ");
+		return (ngtv);
 	}
 }
