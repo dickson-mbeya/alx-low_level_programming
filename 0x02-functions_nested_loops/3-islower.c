@@ -11,11 +11,10 @@
  */
 int _islower(int c)
 {
-	char ch;
 	int success = 1;
 	int notlower = 0;
 
-	if (ch >= 97 && ch <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return success;
 	}
