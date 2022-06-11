@@ -4,8 +4,8 @@
  * _isupper - Checks case of alphabet
  * @c: The charcter to check
  *
- * Return: If upper 1.
- * Else, return 0
+ * Return: on succes 1.
+ * On not upper, 0 is  returned
  */
 int _isupper(int c)
 {   if (c >= 65 && c <= 90)
