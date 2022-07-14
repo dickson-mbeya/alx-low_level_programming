@@ -10,7 +10,7 @@ void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
-		reverse(str + 1);
+		_print_rev_recursion(str + 1);
 		printf("%c", *str);
 	}
 }
