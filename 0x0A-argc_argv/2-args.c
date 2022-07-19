@@ -2,6 +2,8 @@
 
 /**
  * main - Entry point
+ * @argc: counts number of values
+ * @argv: values
  *
  * Return: Always 0 (Success)
  *
